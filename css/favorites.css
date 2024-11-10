@@ -1,6 +1,4 @@
-.favorite-container {
 
-}
 .favorites-menu {
     align-items: center;
     margin: 101px 0 120px 0;
@@ -36,4 +34,4 @@
     width: calc((1248px - 2 * 32px) / 3)
 }
 
-.favorites-image {}
+
