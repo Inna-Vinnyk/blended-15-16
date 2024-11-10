@@ -13,6 +13,12 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/header.css" />
@@ -24,18 +30,31 @@
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/vector.png" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#servise">Service</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <button type="button">Order Now</button>
+    <!--Header-->
+    <header class="header">
+      <div class="container">
+        <img class="header-logo" src="./images/vector.png" alt="logo" />
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="./index.html">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#about">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#servise">Service</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#menu">Menu</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-btn" type="button">Order Now</button>
+      </div>
     </header>
     <main>
       <!-- Oleksandr -->
@@ -75,20 +94,21 @@
           select your favorite meals, and place your order in just a few clicks.
         </p>
       </section>
-      <!-- Matvii -->
-      <section id="menu">
-        <h2>Some of Our Favorites</h2>
-        <p>Looking for something delicious?</p>
-        <ul>
-          <li>
+      <!-- Matvii css Olga-->
+      <section id="menu" class="favorites-menu">
+        <h2 class="favorites-title">Some of Our Favorites</h2>
+        <p class="favorites-text">Looking for something delicious?</p>
+        <ul class="favorites-list">
+          <li class="favorites-item">
             <img
               src="./images/gamburger.png"
               alt="gamburger"
               width="395"
               height="397"
+              class="favorites-image"
             />
           </li>
-          <li>
+          <li class="favorites-item">
             <img
               src="./images/Pasta.png"
               alt="pasts"
@@ -96,36 +116,40 @@
               height="397"
             />
           </li>
-          <li>
+          <li class="favorites-item">
             <img
               src="./images/pizza.png"
               alt="pazza"
               width="395"
               height="397"
+              class="favorites-image"
             />
           </li>
-          <li>
+          <li class="favorites-item">
             <img
               src="./images/chicken.png"
               alt="chicken"
               width="395"
               height="397"
+              class="favorites-image"
             />
           </li>
-          <li>
+          <li class="favorites-item">
             <img
               src="./images/salat2.png"
               alt="salat2"
               width="395"
               height="397"
+              class="favorites-image"
             />
           </li>
-          <li>
+          <li class="favorites-item">
             <img
               src="./images/borshch.png"
               alt="burshch"
               width="395"
               height="397"
+              class="favorites-image"
             />
           </li>
         </ul>
