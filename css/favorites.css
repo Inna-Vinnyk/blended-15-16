@@ -32,6 +32,8 @@
     gap: 32px;
 }
 
-.favorites-item {}
+.favorites-item {
+    width: calc((1248px - 2 * 32px) / 3)
+}
 
 .favorites-image {}
