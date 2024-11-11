@@ -1,6 +1,6 @@
 .subscribe {
   display: flex;
-  padding: 176px 15px 201px 18px;
+  padding: 176px 0 201px 0;
   width: 100%;
 }
 .subscribe-block {
@@ -47,4 +47,6 @@
 }
 .subscribe-button:hover {
   background-color: #ffe450;
+}
+.subscribe-img {
 }
