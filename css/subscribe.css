@@ -45,6 +45,6 @@
   background-color: #bbf330;
   border: none;
 }
-.subscribe-img {
-  width: 100%;
+.subscribe-button:hover {
+  background-color: #ffe450;
 }
