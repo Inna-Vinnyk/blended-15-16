@@ -1,0 +1,37 @@
+
+.favorites-menu {
+    align-items: center;
+    margin: 101px 0 120px 0;
+}
+
+.favorites-title {
+    align-items: center;
+    font-weight: 700;
+        font-size: 42px;
+        text-align: center;
+        color: #2c2c2c;
+        max-width: 656px;
+        margin: 0 auto 20px auto;
+        
+}
+
+.favorites-text {
+    
+    max-width: 656px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favorites-item {
+    width: calc((1248px - 2 * 32px) / 3)
+}
+
+

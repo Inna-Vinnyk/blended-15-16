@@ -1,0 +1,50 @@
+.subscribe {
+  display: flex;
+  padding: 176px 15px 201px 18px;
+  width: 100%;
+}
+.subscribe-block {
+  width: 656px;
+  margin-right: 45px;
+}
+.subscribe-title {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+  margin: 46px 0 20px 0;
+}
+.subscribe-text {
+  line-height: 1.5;
+  color: #2c2c2c;
+  width: 532px;
+  margin-bottom: 24px;
+}
+.subscribe-input {
+  display: inline-block;
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  height: 42px;
+  margin-right: 32px;
+}
+.subscribe-email {
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+.subscribe-button {
+  display: inline-block;
+  border-radius: 30px;
+  width: 103px;
+  height: 42px;
+  background-color: #bbf330;
+  border: none;
+}
+.subscribe-img {
+  width: 100%;
+}
