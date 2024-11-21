@@ -52,16 +52,10 @@
     margin-bottom: 12px;
 }
 
-.footer-wrap {
-    display: flex;
-    gap: 13px;
-}
-
-
 .footer-form {
-   display: inline-flex;
-   margin-bottom: 12px;
-    
+   display: flex;
+   gap: 13px;
+   margin-bottom: 12px;   
 }
 
 .footer-input {
