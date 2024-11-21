@@ -1,4 +1,4 @@
-.subscribe {
+  .subscribe {
   display: flex;
   padding: 176px 0 201px 0;
   width: 100%;
@@ -28,7 +28,7 @@
   padding: 10px;
   width: 395px;
   height: 42px;
-  margin-right: 32px;
+    
 }
 .subscribe-email {
   border: none;

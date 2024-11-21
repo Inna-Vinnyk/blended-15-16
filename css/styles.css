@@ -22,13 +22,12 @@ ol {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
-/* img {
+img {
   display: block;
-  width: 100%;
-  height: auto;
-} */
+} 
 
 button {
   cursor: pointer;

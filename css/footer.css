@@ -1,0 +1,139 @@
+.footer-container {
+    padding: 0 -3;
+    background-image: url(../images/fruitfuter.png);
+    background-size: 1211px;
+    background-position-x: 37px;
+    background-position-y: 129px;
+    background-repeat: no-repeat;
+}
+
+.footer-top { 
+    display: flex;
+    align-items: flex-start;
+    padding: 100px 16px 80px 21px;
+   
+}
+
+.footer-nav {
+ display: flex;
+ align-items: center
+}
+
+.footer-logo {
+    margin-right: 143px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 28px;
+    margin-top: 18px;
+}
+
+.footer-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.footer-subscribe {
+    margin-left: auto;
+    
+}
+
+.footer-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2C2C2C;
+    margin-bottom: 12px;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 13px;
+}
+
+
+.footer-form {
+   display: inline-flex;
+   margin-bottom: 12px;
+    
+}
+
+.footer-input {
+    width: 279px;
+    height: 42px;
+    padding: 12px 61.5px 12px 12px;
+    border-radius: 30px;
+    border: 0.85px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    border: 0.85px solid #FFE550
+}
+
+.footer-button { 
+ display: inline-block;
+ width: 103px;
+ height: 42px;
+ padding: 11px 22px 11px 22px;
+ border-radius: 30px;
+ opacity: 0px;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 19.5px;
+ background: #FFFFFF;
+ border: 0.85px solid #7EB101;
+
+}
+
+.subscribe-text-f {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #000000;
+}
+
+.privacy-span {
+    color: #7EB101;
+    text-decoration: underline;
+}
+
+.footer-privacy {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 100px;
+
+}
+
+.footer-privacy {}
+
+.privacy-list {
+    display: flex;
+    gap: 20px;
+}
+
+.privacy-item {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    color: #7EB101;
+    
+}
+
+.footer-text {
+    width: 174px;
+    height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    color: #2C2C2C;
+}
