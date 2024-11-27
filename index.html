@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="./css/oferings.css" />
     <link rel="stylesheet" href="./css/subscribe.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
   </head>
   <body>
     <!--Header-->
@@ -291,5 +292,44 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">X</button>
+        <p class="modal-caption">Order Form</p>
+        <form class="modal-form">
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-name">Name</label>
+            <input
+              class="modal-input"
+              id="user-name"
+              type="text"
+              name="user-name"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-phone">Phone number</label>
+            <input
+              class="modal-input"
+              id="user-phone"
+              type="tel"
+              name="user-phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+            />
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="user-email">E-mail</label>
+            <input
+              class="modal-input"
+              id="user-email"
+              type="email"
+              name="user-email"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <button class="btn-send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
