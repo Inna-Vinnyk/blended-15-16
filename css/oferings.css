@@ -1,6 +1,7 @@
 .offerings {
   margin-top: 55px;
   margin-bottom: 120px;
+  background-color: #ffe550;
 }
 
 .offerings-container {
@@ -8,15 +9,14 @@
   align-items: center;
   justify-content: center;
   gap: 90px;
-  background-color: #ffe550;
-  width: 100%;
-  height: 100%;
+
   margin: 0 auto;
-  padding: 118px 47px 119px 20px;
+  padding: 113px 51px 124px 16px;
 }
 .service-image {
   width: 550px;
   height: 604px;
+  padding: auto;
 }
 .ellipse-2 {
   width: 550px;
@@ -35,21 +35,25 @@
   border-radius: 100%;
 }
 .image-aple {
-  position: absolute;
+  display: flex;
+
+  justify-content: center;
+}
+.aple {
   width: 396px;
   height: 502px;
-  left: 100px;
-  top: 905px;
+  border-radius: 261px;
 }
 .group-offerings {
-  max-width: 573px;
-  max-height: 413px;
+  width: 573px;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.offerings-item {
+.offerings-block {
   max-width: 526px;
+  margin-bottom: 40px;
 }
 .offerings-title {
   font-weight: 700;
@@ -57,19 +61,20 @@
   line-height: 120%;
   color: #2c2c2c;
   text-align: left;
+  padding-bottom: 20px;
 }
 .offerings-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #2c2c2c;
-  padding-top: 20px;
 }
 .service-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 40px 67px;
+  align-items: center;
+  justify-content: center;
+
+  gap: 67px;
 }
 .servise-item {
   max-width: 253px;
@@ -93,6 +98,7 @@
   line-height: 140%;
   color: #2c2c2c;
   text-align: left;
+  padding-bottom: 16px;
 }
 .service-text {
   font-weight: 400;
