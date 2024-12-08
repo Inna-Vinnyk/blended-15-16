@@ -31,7 +31,9 @@
 }
 
 .favorites-item {
-    width: calc((1248px - 2 * 32px) / 3)
+    width: calc((1248px - 2 * 32px) / 3);
+    border-radius: 50%;
+    border: 14px solid #FFE550;
 }
 
 
